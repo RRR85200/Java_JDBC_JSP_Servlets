@@ -1,0 +1,8 @@
+<Context>
+  <Resource name="jdbc/WebApplicationDictionary" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="20" maxIdle="5" maxWait="10000"
+               username="student" password="Student" 
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/dictionary?useSSL=false"/>
+</Context>
